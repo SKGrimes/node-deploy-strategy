@@ -1,0 +1,22 @@
+{
+  "name": "node-deploy-strategy",
+  "version": "1.0.0",
+  "description": "Provision an Ubuntu box for deploying a node application.",
+  "main": "provision.sh",
+  "scripts": {
+    "start": "node provision.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKGrimes/node-deploy-strategy.git"
+  },
+  "author": "skg",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/SKGrimes/node-deploy-strategy/issues"
+  },
+  "homepage": "https://github.com/SKGrimes/node-deploy-strategy#readme",
+  "dependencies": {
+    "archey": "0.0.7"
+  }
+}
