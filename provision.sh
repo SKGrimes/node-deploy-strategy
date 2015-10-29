@@ -1,3 +1,4 @@
+#!/bin/bash
 echo ""
 echo "###############################################"
 echo "#                                             #"
@@ -5,10 +6,10 @@ echo "#     Provison Script for Ubuntu/Linux        #"
 echo "#                                             #"
 echo "###############################################"
 echo ""
-
-
 echo ""
 echo "Update apt-get to current version. "
+
+sudo cat utilities/.profile >> ~/.profile && . ~/.profile
 
 apt-get -y update && apt-get -y dist-upgrade
 
