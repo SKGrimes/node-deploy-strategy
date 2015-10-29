@@ -10,3 +10,7 @@ to do
 * start building scripts
 * ????
 * profit.
+
+
+## Run It
+curl https://github.com/SKGrimes/node-deploy-strategy/blob/master/init.sh | sudo bash
